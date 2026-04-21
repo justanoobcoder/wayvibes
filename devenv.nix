@@ -10,6 +10,7 @@
     gcc
     alsa-lib
     libpulseaudio
+    evtest
   ];
 
   env.LD_LIBRARY_PATH = lib.makeLibraryPath [pkgs.alsa-lib pkgs.libpulseaudio];
